@@ -1,2 +1,2 @@
-# history
-History App
+# chore-gui
+Chore GUI
