@@ -9,7 +9,7 @@
                 <th>person</th>
                 <th>name</th>
                 <th>status</th>
-                <th>created</th>
+                <th>updated</th>
             </tr>
         </thead>
         <tbody>
@@ -21,7 +21,7 @@
                 <td>{{=it.persons[act.person_id]}}</td>
                 <td>{{=act.name}}</td>
                 <td>{{=act.status}}</td>
-                <td>{{=(new Date(act.created*1000)).toLocaleString()}}</td>
+                <td>{{=(new Date(act.updated*1000)).toLocaleString()}}</td>
             </tr>
             {{~}}
         </tbody>
